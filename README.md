@@ -1,7 +1,7 @@
 # Cycles-Detector
 This program is used to detect cycles in an undirected graph using matplotlib and networkx libraries in python.
 It checks each node of the given graph and recursively check cycles with each unvisited neighboring node. If a 
-neighbor node has a neighbor that is connected to a visited ancestor node which is not the parent node (current node)
+given node has a neighbor that is connected to a visited ancestor node which is not the parent node (given node)
 as this is an undirected graph, then a cycle is detected and held in the cycles array. Once all nodes are visited, we proceed
 with the cycles array to draw a graph showing only the cycles found in the network. Also, an additional graph of the main given 
 network is drawn to the user to show the differences between the main graph and the cycles graph. If no cycles were found in 
